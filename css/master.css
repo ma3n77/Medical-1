@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("medical-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.title {
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+/* Subjects */
+
+.sub1 {
+    margin-top: 140px;
+    margin-left: 480px;
+    padding: 15px;
+    width: 400px;
+    background-color: rgba(211, 211, 211, 0.438);
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.sub1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub1:hover {
+    cursor: pointer;
+    background-color: rgb(131, 128, 128);
+    border-radius: 30px;
+}
+
+.sub2 {
+    margin-top: 145;
+    margin-left: 480px;
+    padding: 15px;
+    width: 400px;
+    background-color: rgba(211, 211, 211, 0.438);
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.sub2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub2:hover {
+    cursor: pointer;
+    background-color: rgb(131, 128, 128);
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.sub3 {
+    margin-top: 150;
+    margin-left: 480px;
+    padding: 15px;
+    width: 400px;
+    background-color: rgba(211, 211, 211, 0.438);
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.sub3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub3:hover {
+    cursor: pointer;
+    background-color: rgb(131, 128, 128);
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.sub4 {
+    margin-top: 155;
+    margin-left: 480px;
+    padding: 15px;
+    width: 400px;
+    background-color: rgba(211, 211, 211, 0.438);
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.sub4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub4:hover {
+    cursor: pointer;
+    background-color: rgb(131, 128, 128);
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.sub5 {
+    margin-top: 160;
+    margin-left: 480px;
+    padding: 15px;
+    width: 400px;
+    background-color: rgba(211, 211, 211, 0.438);
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.sub5 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub5:hover {
+    cursor: pointer;
+    background-color: rgb(131, 128, 128);
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.sub6 {
+    margin-top: 165;
+    margin-left: 480px;
+    padding: 15px;
+    width: 400px;
+    background-color: rgba(211, 211, 211, 0.438);
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.sub6 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub6:hover {
+    cursor: pointer;
+    background-color: rgb(131, 128, 128);
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.sub7 {
+    margin-top: 165;
+    margin-left: 480px;
+    padding: 15px;
+    width: 400px;
+    background-color: rgba(211, 211, 211, 0.438);
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.sub7 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub7:hover {
+    cursor: pointer;
+    background-color: rgb(131, 128, 128);
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.sub8 {
+    margin-top: 165;
+    margin-left: 480px;
+    padding: 15px;
+    width: 400px;
+    background-color: rgba(211, 211, 211, 0.438);
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.sub8 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub8:hover {
+    cursor: pointer;
+    background-color: rgb(131, 128, 128);
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+/* Footer */
+
+.footer {
+    background-color: #272727;
+    height: 200px;
+}
+
+.inner-footer {
+    margin: 0px;
+    padding: 0px;
+    background-color: #272727;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links ul {
+    display: flex;
+    padding: 20px;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+}
+
+.social-items {
+    list-style: none;
+}
+
+.social-items a {
+    padding: 10px 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.social-items a:hover {
+    color: darkgray;
+}
+
+.quick-links {
+    display: flex;
+    width: 600px;
+    height: 70px;
+    margin-left: 515px;
+}
+
+.quick-links ul {
+    display: flex;
+}
+
+.quick-items {
+    list-style: none;
+}
+
+.quick-items a {
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 18px;
+    color: white;
+}
+
+.quick-items a:hover {
+    color: darkgray;
+}
+
+.outer-footer {
+    color: white;
+    font-size: 15px;
+    margin-left: 540px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
